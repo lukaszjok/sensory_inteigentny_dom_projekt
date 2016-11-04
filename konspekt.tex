@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Simple Sectioned Essay Template
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Note:
+% The \lipsum[#] commands throughout this template generate dummy text
+% to fill the template out. These commands should all be removed when 
+% writing essay content.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article} % Default font size is 12pt, it can be changed here
+
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+
+\usepackage{geometry} % Required to change the page size to A4
+\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
+\newgeometry{tmargin=2cm, bmargin=2cm, lmargin=2cm, rmargin=2cm}
+
+\usepackage{graphicx} % Required for including pictures
+
+\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+\usepackage{wrapfig} % Allows in-line images such as the example fish picture
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\linespread{1.2} % Line spacing
+
+%\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
+
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+
+\textsc{\LARGE Politechnika Wrocławska}\\[1.5cm] % Name of your university/college
+\textsc{\Large Projekt usług multimedialnych}\\[0.5cm] % Major heading such as course name
+\textsc{\large Kod kursu: TLEU00103P, Termin: Piątek, 7:30-9:00 TP}\\[0.5cm] % Minor heading such as course title
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Projekt systemu sensorycznego dla energooszczędnego, inteligentnego mieszkania jednorodzinnego}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Autorzy:}\\
+Łukasz \textsc{Joksch}(200963) \\
+Tomasz \textsc{Kowalik}(200943) \\
+Piotr \textsc{Tazbir}(201029)
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Opiekun:} \\
+dr Piotr \textsc{Piotrowski} % Supervisor's Name
+\end{flushright}
+\end{minipage}\\[4cm]
+
+{\large \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+
+
+\newpage % Begins the essay on a new page instead of on the same page as the table of contents 
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section{Wstęp} 
+
+Niniejszy projekt ma za zadanie pokazać nowoczesne podejście w projektowaniu systemu sensorycznego, który pomoże zaoszczędzić takie zasoby jak energia elektryczna, prąd, ogólnie rozumiane ogrzewanie. Uczyni to gospodarstwo domowe ekologicznym, wygodnym ale co ważniejsze - właściciele zaoszczędzą pieniądze nie marnując tych zasobów. Celem projektu jest takie dobranie komponentów, by zapotrzebowanie na prąd było jak najmniejsze, jednak, by jego minimalny pobór nie wpływał negatywnie na jakość życia w takim mieszkaniu. Jest to możliwe dzięki zastosowaniu najnowszych technologii mikroprocesorowych,sprzętu sterującemu poszczególnymi elementami systemu oraz dzięki stworzeniu optymalnego oprogramowania i algorytmów zarządzających.
+\\ \\
+W tym projekcie pragniemy podkreślić szczególne znaczenie kolejnych modułów w kontekście konkretnych oszczędności, tj. będziemy chcieli pokazać jak dany element przyczynia się do powstania oszczędności. W miarę możliwości, na ogólnym poziomie koncepcyjnym przedstawione zostaną sposoby magazynowania zasobów, tak by uniknąć ich marnowania. 
+
+\section{Ramowy plan projektu}
+Poniżej przedstawione zostały obszary, które planujemy przedstawić w naszym projekcie. Każda sekcja zawiera krótki opis prezentujący główny zamysł jaki przyświeca poruszanemu zagadnieniu.
+
+\subsection{Cel projektu}
+W tym rozdziale zostanie przedstawiony główny cel projektu oraz podejście, które będzie przyświecało temu projektowi.
+
+\subsection{Przegląd obecnych rozwiązań}
+Zawarte zostaną tu informacje o rozwiązaniach dostępnych na rynku, które stosowane są w komercyjnych systemach.
+
+\subsection{Zarządzanie energią elektryczną}
+To najobszerniejszy rozdział, który przedstawi propozycje dotyczące sposobów zarządzania energią elektryczną. Pokazane zostaną scenariusze działań podejmowanych przez system w celu niemarnotrawienia prądu. Działania te dotyczyć będą oświetlenia, wykrywania zdarzeń polegających na pozostawieniu   włączonego urządzenia elektrycznego, podczas nieobecności lokatora czy regulowanie naturalnego oświetlenia w zależności od pory dnia.
+
+\subsection{Zarządzanie zasobami wody}
+Sensory tego obszaru wykrywać będą zdarzenie polegające na pozostawieniu otwartych zaworów, kranów w chwili nieobecności domownika.
+
+\subsection{Zarządzanie ogrzewaniem mieszkania}
+Rozdział ten pokaże jak zarządzać ogrzewaniem - kotłami cieplnymi, w zależności od aktualnej temperatury w mieszkaniu. W przypadku nagłego spadku temperatury w mieszkaniu poinformuje o otwartych oknach czy drzwiach.
+
+\subsection{Automatyzacja roślino-ogrodnicza}
+Kolejnym elementem systemu będzie zoptymalizowanie gospodarki wodnej w obszarze ogrodniczym. Odpowiednie sensory będą dozowały ustalone dawki nawozów i wody dla odmiennych gatunków roślin.
+
+\subsection{System alarmowy}
+W tym rozdziale przedstawimy koncepcyjne rozwiązanie implementacji systemu alarmowego.
+
+\subsection{Prezentacja danych i zarządzanie systemem}
+Rozdział ten będzie swoistym podsumowaniem całego projektu. Przedstawione zostaną tu relacje między poszczególnymi elementami projektu. Finalnie zostanie zaproponowany sposób prezentacji zgromadzonych danych lub informacji zgłaszanych przez system w czasie rzeczywistym.
+
+\subsection{Demonstracja przykładowego dashboard'u}
+Ten dział jedynie zasygnalizuje istnienie stworzonego przez nas demonstracyjnego środowiska,w którym zasymilowane zostaną kolejne moduły systemu sensorycznego.
+
+\end{document}
