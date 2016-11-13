@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.8)  14 NOV 2016 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.8)  14 NOV 2016 00:52
 entering extended mode
 **./main_project.tex
 (main_project.tex
@@ -495,8 +495,7 @@ Package: wrapfig 2003/01/31  v 3.6
 ("d:\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count93
-)
-No file main_project.aux.
+) (main_project.aux)
 \openout1 = `main_project.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -513,6 +512,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -633,10 +633,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
 [1] [2] (main_project.aux) ) 
 Here is how much of TeX's memory you used:
- 2798 strings out of 493335
- 36116 string characters out of 3145275
+ 2800 strings out of 493335
+ 36148 string characters out of 3145275
  203574 words of memory out of 3000000
  6280 multiletter control sequences out of 15000+200000
  13208 words of font info for 36 fonts, out of 3000000 for 9000
@@ -647,7 +652,7 @@ eX 2.9/fonts/enc/dvips/pl/plit.enc}{d:/MiKTeX 2.9/fonts/enc/dvips/pl/plsc.enc}<
 d:/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><d:/MiKTeX 2.9/fonts/type1/publi
 c/pl/plcsc10.pfb><d:/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><d:/MiKTeX 2.9/
 fonts/type1/public/pl/plti12.pfb>
-Output written on main_project.pdf (3 pages, 49556 bytes).
+Output written on main_project.pdf (3 pages, 49208 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
