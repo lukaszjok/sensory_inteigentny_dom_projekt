@@ -115,10 +115,20 @@ W tym rozdziale zostaną scenariusze działań podejmowanych przez system w celu
 Chcąc mieć możliwość elektronicznego sterowania oświetleniem, czy też gniazdami elektrycznymi, które są systemami elektrycznymi - należy stworzyć interfejs ze sterującą nimi elektroniką. Możliwe to będzie dzięki zastosowaniu modułów przełączników opartych na triakach i optotriakach. Te moduły to elektroniczne wyłączniki, których zadaniem jest załączanie lub rozłączanie przewodu zasilającego. W ogólnym uproszczeniu ich zasada działania polega na sterowaniu linią zasilania o dużym napięciu, przewodzącej duży prąd (~230V, >1A), małym napięciem i małym prądem (3,3V DC, <20mA). Ponadto stosując takie podejście, w odróżnieniu od modułów przełączników opartych na przekaźnikach elektromagnetycznych, zachowujemy izolację optyczną między instalacją elektryczną i elektroniczną. W przypadku awarii układu, najczęściej nie jest konieczna wymiana całego modułu, lecz, np. samego optotriaka.
 
 \subsection{Zarządzanie oświetleniem}
-Użytkownik systemu będzie miał możliwość, w każdej chwili, sprawdzenia czy w danym pomieszczeniu włączone jest oświetlenie 
+Użytkownik systemu będzie miał możliwość, w każdej chwili, sprawdzenia czy w danym pomieszczeniu włączone jest oświetlenie i jeżeli będzie widział konieczność, będzie mógł je wyłączyć w dowolnej części mieszkania.
+\subsubsection{Czujnik zmierzchu}
+Na zewnątrz budynku zainstalowany zostanie czujnik zmierzchu, który będzie pokazywał procentową wartość nasłonecznienia. Użytkownik, będzie mógł uzależnić od tego parametru scenariusze zarządzania energią elektryczną. Na szczególną uwagę zasługuje sposobność ustawienia zależności, w której to gdy nastanie ranek oświetlenie zewnętrze mieszkania czy wybranych pomieszczeń zostanie wyłączone. W rezultacie pomieszczenia będą oświetlane światłem naturalnym. Oczywiście, należy nadmienić, że wyższy priorytet będzie miało ustawienie ręczne, tj. takie przez włączenie wewnątrz budynku oświetlenia w danym pokoju celowo przed mieszkańca(włącznikiem tradycyjnym lub z panelu - tabletu).
 
-\subsection{Zarządzanie gniazdami elektrycznymi}
-Napisać o tym, że zostanie odcięte zasilanie jak będzie włączone żelazko jak nikogo nie będzie w pokoju.
+\subsubsection{Definiowane okna czasowe}
+Dodatkową funkcjonalnością będzie możliwość zdefiniowania harmonogramu uruchomienia oświetlenia (oraz wyłączenia) dla każdego punktu oświetleniowego. Dzięki temu będzie można ustawić przez jaki okres czasu ma być uruchomione oświetlenie zewnętrzne czy oświetlenie klinkierowe korytarzy. Przewiduje się bowiem, iż użytkownik chce mieć możliwość odgórnego zadeklarowania godzin pracy oświetlenia z pominięciem czujnika zmierzchu, np. w sytuacji nie chce mieć uruchomionego oświetlenia zewnętrznego przez całą noc a wyłącznie przez godzinę od chwili gdy nastanie zmrok, i np. na godzinę przed świtem.
+
+\subsubsection{Zarządzanie gniazdami elektrycznymi}
+Opcja opisywana poniżej jest opcjonalną i dla każdego pomieszczenia może zostać wyłączona (później w dowolnej chwili można ją włączyć) Ta funkcjonalność ma podwójne zastosowanie. Z jednej strony pozwala zaoszczędzić pieniądze wyłączając nieużywane urządzenia,  drugiej strony pełni rolę prewencyjną chroniąca przed przegrzaniem się sprzętu, a w skrajnych przypadkach przed ich spaleniem.
+\\
+W każdym gniazdku zostanie zainstalowany moduł watomierza
+
+
+
 \section{Zarządzanie zasobami wody}
 Sensory tego obszaru wykrywać będą zdarzenie polegające na pozostawieniu otwartych zaworów, kranów w chwili nieobecności domownika.
 
