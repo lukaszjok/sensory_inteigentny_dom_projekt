@@ -108,11 +108,17 @@ Ponadto zastosowanie technologii WiFi pozwoli na łatwą i szybką diagnostykę 
 \\ \\ 
 W nawiązaniu do centrali zarządzającej, użytkownik będzie miał możliwość łatwą administracją systemu dzięki panelom administracyjnym. Przewiduje się, że w zależności od potrzeb danego klienta będzie możliwość zastosowania dowolnej liczby paneli na terenie całego gospodarstwa domowego. Tą rolę będą pełniły tablety z dedykowaną aplikacją mobilną, która będzie prezentowała wskaźniki przewidziane w projekcie (aktualna temperatura w pomieszczeniach, sygnalizacja włączonego oświetlenia, sygnalizacja obecności domowników etc.). Dodatkowo,jeżeli klient wyrazi taką wolę, możliwa będzie instalacja identycznej aplikacji na jego smartfonie, tak by mógł zarządzać swoim mieszkaniem zdalnie.
 
-
-
 \section{Zarządzanie energią elektryczną}
-To najobszerniejszy rozdział, który przedstawi propozycje dotyczące sposobów zarządzania energią elektryczną. Pokazane zostaną scenariusze działań podejmowanych przez system w celu niemarnotrawienia prądu. Działania te dotyczyć będą oświetlenia, wykrywania zdarzeń polegających na pozostawieniu   włączonego urządzenia elektrycznego, podczas nieobecności lokatora czy regulowanie naturalnego oświetlenia w zależności od pory dnia.
+W tym rozdziale zostaną scenariusze działań podejmowanych przez system w celu niemarnotrawienia prądu. Działania te dotyczyć będą oświetlenia, wykrywania zdarzeń polegających na pozostawieniu włączonego urządzenia elektrycznego, podczas nieobecności lokatora czy regulowanie naturalnego oświetlenia w zależności od pory dnia.
 
+\subsection{Zastosowane podejście sprzętowe}
+Chcąc mieć możliwość elektronicznego sterowania oświetleniem, czy też gniazdami elektrycznymi, które są systemami elektrycznymi - należy stworzyć interfejs ze sterującą nimi elektroniką. Możliwe to będzie dzięki zastosowaniu modułów przełączników opartych na triakach i optotriakach. Te moduły to elektroniczne wyłączniki, których zadaniem jest załączanie lub rozłączanie przewodu zasilającego. W ogólnym uproszczeniu ich zasada działania polega na sterowaniu linią zasilania o dużym napięciu, przewodzącej duży prąd (~230V, >1A), małym napięciem i małym prądem (3,3V DC, <20mA). Ponadto stosując takie podejście, w odróżnieniu od modułów przełączników opartych na przekaźnikach elektromagnetycznych, zachowujemy izolację optyczną między instalacją elektryczną i elektroniczną. W przypadku awarii układu, najczęściej nie jest konieczna wymiana całego modułu, lecz, np. samego optotriaka.
+
+\subsection{Zarządzanie oświetleniem}
+Użytkownik systemu będzie miał możliwość, w każdej chwili, sprawdzenia czy w danym pomieszczeniu włączone jest oświetlenie 
+
+\subsection{Zarządzanie gniazdami elektrycznymi}
+Napisać o tym, że zostanie odcięte zasilanie jak będzie włączone żelazko jak nikogo nie będzie w pokoju.
 \section{Zarządzanie zasobami wody}
 Sensory tego obszaru wykrywać będą zdarzenie polegające na pozostawieniu otwartych zaworów, kranów w chwili nieobecności domownika.
 

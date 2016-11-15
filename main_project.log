@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.8)  15 NOV 2016 01:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.8)  15 NOV 2016 01:18
 entering extended mode
 **./main_project.tex
 (main_project.tex
@@ -643,7 +643,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--110
 
  []
 
-[1] [2] [3] (main_project.aux) ) 
+[1] [2] [3] [4] (main_project.aux) ) 
 Here is how much of TeX's memory you used:
  2800 strings out of 493335
  36148 string characters out of 3145275
@@ -651,15 +651,15 @@ Here is how much of TeX's memory you used:
  6280 multiletter control sequences out of 15000+200000
  13208 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,4n,25p,797b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
-{d:/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}{d:/
-MiKTeX 2.9/fonts/enc/dvips/pl/plit.enc}{d:/MiKTeX 2.9/fonts/enc/dvips/pl/plsc.e
-nc}<d:/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><d:/MiKTeX 2.9/fonts/type1/p
-ublic/pl/plcsc10.pfb><d:/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><d:/MiKTeX 
-2.9/fonts/type1/public/pl/plti12.pfb>
-Output written on main_project.pdf (4 pages, 53921 bytes).
+ 40i,4n,25p,981b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
+{d:/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}
+{d:/MiKTeX 2.9/fonts/enc/dvips/pl/plit.enc}{d:/MiKTeX 2.9/fonts/enc/dvips/pl/pl
+sc.enc}<d:/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><d:/MiKTeX 2.9/fonts/typ
+e1/public/pl/plcsc10.pfb><d:/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><d:/MiK
+TeX 2.9/fonts/type1/public/pl/plti12.pfb>
+Output written on main_project.pdf (5 pages, 55914 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
