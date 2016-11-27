@@ -123,14 +123,18 @@ Na zewnątrz budynku zainstalowany zostanie czujnik zmierzchu, który będzie po
 Dodatkową funkcjonalnością będzie możliwość zdefiniowania harmonogramu uruchomienia oświetlenia (oraz wyłączenia) dla każdego punktu oświetleniowego. Dzięki temu będzie można ustawić przez jaki okres czasu ma być uruchomione oświetlenie zewnętrzne czy oświetlenie klinkierowe korytarzy. Przewiduje się bowiem, iż użytkownik chce mieć możliwość odgórnego zadeklarowania godzin pracy oświetlenia z pominięciem czujnika zmierzchu, np. w sytuacji nie chce mieć uruchomionego oświetlenia zewnętrznego przez całą noc a wyłącznie przez godzinę od chwili gdy nastanie zmrok, i np. na godzinę przed świtem.
 
 \subsubsection{Zarządzanie gniazdami elektrycznymi}
-Opcja opisywana poniżej jest opcjonalną i dla każdego pomieszczenia może zostać wyłączona (później w dowolnej chwili można ją włączyć) Ta funkcjonalność ma podwójne zastosowanie. Z jednej strony pozwala zaoszczędzić pieniądze wyłączając nieużywane urządzenia,  drugiej strony pełni rolę prewencyjną chroniąca przed przegrzaniem się sprzętu, a w skrajnych przypadkach przed ich spaleniem.
+Funkcjonalność opisywana poniżej jest opcjonalną i dla każdego pomieszczenia może zostać wyłączona (później w dowolnej chwili można ją włączyć) Ta funkcjonalność ma podwójne zastosowanie. Z jednej strony pozwala zaoszczędzić pieniądze wyłączając nieużywane urządzenia,  drugiej strony pełni rolę prewencyjną chroniącą przed przegrzaniem się sprzętu, a w skrajnych przypadkach przed ich spaleniem.
 \\
-W każdym gniazdku zostanie zainstalowany moduł watomierza
+W każdym gniazdku zostanie zainstalowany moduł watomierza.Dzięki temu możliwy będzie badanie poboru prądu w danej chwili. Pozwoli na reagowanie systemu w momencie zauważenia, że przez długi czas jest duży pobór - na tablecie pojawi się dobrze widoczny alert. Przewiduje się, że system będzie wykrywał obecność osób w pomieszczeniach przy pomocy czujników ruchu. Pozwoli to oszczędzać energię elektryczną w taki sposób, iż gdy system ie wykryje obecności człowieka w pokoju, a stwierdzi zwiększony pobór z gniazdka, wyłączy je. Chcąc uniknąć sytuacji, w której system wyłączy specjalnie pozostawione przez użytkownika urządzenie, np. ładowarkę podczas ładowania telefonu - użytkownik będzie mógł zasygnalizować taką konieczność na tablecie sterującym systemem. Rozwiązane to zostanie za pomocą przycisku blokady automatycznego wyłączenia prądu.
+\\
+Ponadto, rozwiązanie będzie posiadało oddzielne reguły dla urządzeń potencjalnie niebezpiecznych, takich których pozostawienie uruchomionych bez nadzoru człowieka może przyczynić się, np. do pożaru. Dla wszystkich urządzeń, dla których prąd pracy wynosi powyżej 2A, są uruchomione, a w pomieszczeniu nie zostanie wykryty użytkownik - gniazdko, z którego jest zasilane zostanie odłączone od energii elektrycznej.
 
 
 
 \section{Zarządzanie zasobami wody}
-Sensory tego obszaru wykrywać będą zdarzenie polegające na pozostawieniu otwartych zaworów, kranów w chwili nieobecności domownika.
+Sensory tego obszaru wykrywać będą zdarzenie polegające na pozostawieniu otwartych zaworów, kranów w chwili nieobecności domownika. 
+\\
+Rozwiązanie to ma na celu wspomóc racjonale gospodarowanie wody w gospodarstwie domowym. We wszystkich kranach zostaną zamontowane zawory wodne z czujnikiem ruchu i odległości. Przepływ strumienia wody będzie możliwy wyłącznie gdy w obszarze zlewu(zakres widoczności czujników) pojawi się jakiś obiekt, np. ręce, naczynia. Jednocześnie krany będą miały przełączniki pozwalające podtrzymać strumień wody przez dłuższy czas. Unikniemy dzięki temu sytuacji, w której zawory kranu zostaną niezakręcone.
 
 \section{Zarządzanie ogrzewaniem mieszkania}
 Rozdział ten pokaże jak zarządzać ogrzewaniem - kotłami cieplnymi, w zależności od aktualnej temperatury w mieszkaniu. W przypadku nagłego spadku temperatury w mieszkaniu poinformuje o otwartych oknach czy drzwiach.
