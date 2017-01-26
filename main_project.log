@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.8)  27 NOV 2016 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.8)  26 JAN 2017 23:32
 entering extended mode
 **./main_project.tex
 (main_project.tex
@@ -643,23 +643,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--110
 
  []
 
-[1] [2] [3] [4] [5] (main_project.aux) ) 
+[1] [2] [3] [4] <images/Rysunek1.png, id=21, 772.68675pt x 399.894pt>
+File: images/Rysunek1.png Graphic file (type png)
+
+<use images/Rysunek1.png>
+Package pdftex.def Info: images/Rysunek1.png used on input line 162.
+(pdftex.def)             Requested size: 500.484pt x 259.02493pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 168.
+
+ ("d:\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 168.
+ [5 <./images/Rysunek1.png>] [6] <images/1.png, id=30, 1046.91125pt x 551.05875
+pt>
+File: images/1.png Graphic file (type png)
+
+<use images/1.png>
+Package pdftex.def Info: images/1.png used on input line 214.
+(pdftex.def)             Requested size: 500.484pt x 263.4373pt.
+ <images/2.png, id=31, 1312.905pt x 630.355pt>
+File: images/2.png Graphic file (type png)
+
+<use images/2.png>
+Package pdftex.def Info: images/2.png used on input line 222.
+(pdftex.def)             Requested size: 500.484pt x 240.29724pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/3.png, id=32, 1308.89pt x 546.04pt>
+File: images/3.png Graphic file (type png)
+ <use images/3.png>
+Package pdftex.def Info: images/3.png used on input line 229.
+(pdftex.def)             Requested size: 500.484pt x 208.78879pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/4.png, id=33, 1296.845pt x 631.35875pt>
+File: images/4.png Graphic file (type png)
+ <use images/4.png>
+Package pdftex.def Info: images/4.png used on input line 237.
+(pdftex.def)             Requested size: 500.484pt x 243.65671pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/5.png, id=34, 1299.85625pt x 627.34375pt>
+File: images/5.png Graphic file (type png)
+ <use images/5.png>
+Package pdftex.def Info: images/5.png used on input line 245.
+(pdftex.def)             Requested size: 500.484pt x 241.54243pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/6.png, id=35, 1326.9575pt x 630.355pt>
+File: images/6.png Graphic file (type png)
+ <use images/6.png>
+Package pdftex.def Info: images/6.png used on input line 252.
+(pdftex.def)             Requested size: 500.484pt x 237.74835pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/7.png, id=36, 1287.81125pt x 632.3625pt>
+File: images/7.png Graphic file (type png)
+ <use images/7.png>
+Package pdftex.def Info: images/7.png used on input line 259.
+(pdftex.def)             Requested size: 500.484pt x 245.75197pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/8.png, id=37, 1046.91125pt x 586.19pt>
+File: images/8.png Graphic file (type png)
+ <use images/8.png>
+Package pdftex.def Info: images/8.png used on input line 265.
+(pdftex.def)             Requested size: 500.484pt x 280.23204pt.
+ [7 <./images/1.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <./images/2.png> <./images/3.png>] [9 <./images/4.png> <./images/5.png>]
+[10 <./images/6.png> <./images/7.png>] [11 <./images/8.png>] (main_project.aux)
+ ) 
 Here is how much of TeX's memory you used:
- 2801 strings out of 493335
- 36163 string characters out of 3145275
+ 2868 strings out of 493335
+ 37153 string characters out of 3145275
  206574 words of memory out of 3000000
- 6281 multiletter control sequences out of 15000+200000
- 13712 words of font info for 37 fonts, out of 3000000 for 9000
+ 6334 multiletter control sequences out of 15000+200000
+ 13969 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,4n,25p,981b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
-{d:/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.
-enc}{d:/MiKTeX 2.9/fonts/enc/dvips/pl/plit.enc}{d:/MiKTeX 2.9/fonts/enc/dvips/p
-l/plsc.enc}<d:/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><d:/MiKTeX 2.9/fonts
-/type1/public/pl/plcsc10.pfb><d:/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><d:
-/MiKTeX 2.9/fonts/type1/public/pl/plti12.pfb>
-Output written on main_project.pdf (6 pages, 59829 bytes).
+ 40i,6n,25p,1206b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
+{d:/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}{d:/MiKTeX 2.9/fonts/enc/dvips/pl/
+plit.enc}{d:/MiKTeX 2.9/fonts/enc/dvips/pl/plsc.enc}<d:/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><d:/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><
+d:/MiKTeX 2.9/fonts/type1/public/pl/plcsc10.pfb><d:/MiKTeX 2.9/fonts/type1/publ
+ic/pl/plr12.pfb><d:/MiKTeX 2.9/fonts/type1/public/pl/plti12.pfb>
+Output written on main_project.pdf (12 pages, 849426 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
